@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadSafe", "ThreadSafe\Th
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheadExample", "TheadExample\TheadExample.csproj", "{FFBFD9CE-EB15-4032-8FFA-5138A091F32A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTest", "ThreadTest\ThreadTest.csproj", "{96CC9B3A-E3DA-44C1-A62C-018F9D9020A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadTest", "ThreadTest\ThreadTest.csproj", "{96CC9B3A-E3DA-44C1-A62C-018F9D9020A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTest2", "ThreadTest2\ThreadTest2.csproj", "{1ADBC7DD-31E3-434E-9F48-DCE4C35285BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadTest2", "ThreadTest2\ThreadTest2.csproj", "{1ADBC7DD-31E3-434E-9F48-DCE4C35285BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadMutex", "ThreadMutex\ThreadMutex.csproj", "{D1AE185C-40E5-4A6E-852B-6C55AD478C05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadMonitor", "ThreadMonitor\ThreadMonitor.csproj", "{228FCD71-9E18-459F-B357-F3DB8462573F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{1ADBC7DD-31E3-434E-9F48-DCE4C35285BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ADBC7DD-31E3-434E-9F48-DCE4C35285BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ADBC7DD-31E3-434E-9F48-DCE4C35285BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1AE185C-40E5-4A6E-852B-6C55AD478C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AE185C-40E5-4A6E-852B-6C55AD478C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AE185C-40E5-4A6E-852B-6C55AD478C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AE185C-40E5-4A6E-852B-6C55AD478C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228FCD71-9E18-459F-B357-F3DB8462573F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228FCD71-9E18-459F-B357-F3DB8462573F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228FCD71-9E18-459F-B357-F3DB8462573F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228FCD71-9E18-459F-B357-F3DB8462573F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
