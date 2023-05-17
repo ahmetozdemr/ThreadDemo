@@ -11,15 +11,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadTest", "ThreadTest\Th
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadTest2", "ThreadTest2\ThreadTest2.csproj", "{1ADBC7DD-31E3-434E-9F48-DCE4C35285BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadMutex", "ThreadMutex\ThreadMutex.csproj", "{D1AE185C-40E5-4A6E-852B-6C55AD478C05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadMutex", "ThreadMutex\ThreadMutex.csproj", "{D1AE185C-40E5-4A6E-852B-6C55AD478C05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadMonitor", "ThreadMonitor\ThreadMonitor.csproj", "{228FCD71-9E18-459F-B357-F3DB8462573F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadMonitor", "ThreadMonitor\ThreadMonitor.csproj", "{228FCD71-9E18-459F-B357-F3DB8462573F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadSemaphore", "ThreadSemaphore\ThreadSemaphore.csproj", "{267E3738-1D0C-4F43-B5ED-3C7446DBF10A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadSemaphore", "ThreadSemaphore\ThreadSemaphore.csproj", "{267E3738-1D0C-4F43-B5ED-3C7446DBF10A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threadinterlocked", "Threadinterlocked\Threadinterlocked.csproj", "{601612D3-08CF-47FF-ACF6-8BC51923AA6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threadinterlocked", "Threadinterlocked\Threadinterlocked.csproj", "{601612D3-08CF-47FF-ACF6-8BC51923AA6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threadthreadpool", "Threadthreadpool\Threadthreadpool.csproj", "{46511715-6765-4421-818A-1141A48DABD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Threadthreadpool", "Threadthreadpool\Threadthreadpool.csproj", "{46511715-6765-4421-818A-1141A48DABD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskAsynchronous", "TaskAsynchronous\TaskAsynchronous.csproj", "{4A2CB57F-BC49-4E80-9404-16482FE915BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskAsynchronous2", "TaskAsynchronous2\TaskAsynchronous2.csproj", "{239A5FEB-ABD9-4E50-9C27-37D62211BF48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskAsynchronous3", "TaskAsynchronous3\TaskAsynchronous3.csproj", "{872C5FEB-63D8-40D6-86BD-CFFBF8568BD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{46511715-6765-4421-818A-1141A48DABD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46511715-6765-4421-818A-1141A48DABD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46511715-6765-4421-818A-1141A48DABD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A2CB57F-BC49-4E80-9404-16482FE915BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2CB57F-BC49-4E80-9404-16482FE915BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2CB57F-BC49-4E80-9404-16482FE915BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2CB57F-BC49-4E80-9404-16482FE915BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{239A5FEB-ABD9-4E50-9C27-37D62211BF48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239A5FEB-ABD9-4E50-9C27-37D62211BF48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239A5FEB-ABD9-4E50-9C27-37D62211BF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239A5FEB-ABD9-4E50-9C27-37D62211BF48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872C5FEB-63D8-40D6-86BD-CFFBF8568BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872C5FEB-63D8-40D6-86BD-CFFBF8568BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872C5FEB-63D8-40D6-86BD-CFFBF8568BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872C5FEB-63D8-40D6-86BD-CFFBF8568BD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
